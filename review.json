@@ -1,14 +1,16 @@
 {
-  "znamka": 7,
+  "znamka": 8,
   "slabiny": [
-    "Koncept „Hodina pre pacienta“ je vidět jen v hero štítku „60 minút“ a v sekci s ciferníkem. Zbytek stránky je běžný sled sekcí: 3 karty ambulancí, 4 kroky, 2 speciality, tým, citace a kontakt. Navíc v hero je šablonový pruh tří čísel, kde popisek „od roku 2006 – v pracovné dni, trvalým klientom aj cez víkend“ nesedí k nadpisu. Oprava: hero pruh zrušit a rok 2006 dát do věty v perexu. Čtyři kroky (Vypočujeme Vás → Nespúšťame Vás z dohľadu) vykreslit jako čtvrtiny téhož 60minutového ciferníku. Hodiny v rozvrhu ambulancí jsou časová osa, tak sjednotit jejich vizuál s ciferníkem, aby nápad nesla celá stránka.",
-    "slabiny_2_placeholder",
-    "Typografie na PC a fotky ve Špecialitách: menu má kolem 12 px a text karet ambulancí, kroků, hero poznámky o poisťovniach a tagline tímu má kolem 13 px ve světle šedé, takže na 1440 px působí stránka drobně a málo kontrastně. Oprava: menu na 15 px, text na 16–17 px, šedou ztmavit aspoň na kontrast 4,5:1. Fotka 24hodinového monitoru je produktový packshot od výrobce v šedém boxu. Vedle fotky aplikace GUNA a fotek od Molnára vypadá jako cizí stock. Oprava: dát ji na krémové pozadí bez boxu ve stejném ořezu jako GUNA, nebo použít fotku přístroje na pacientovi z jejich webu."
+    "Kompozice a rytmus: na PC jsou nad sekcemi „Hodina pre pacienta“ (buňka 4), „Naše špeciality“ (buňka 5) a nad recenzemi (buňka 8) prázdné béžové a bílé pruhy vysoké zhruba 250–300 px. Nadpisy h2 jsou přilepené ke spodku sekce, takže tyhle sekce působí useknutě. Stejné díry jsou na mobilu za „Cenník“ u Fyzioterapie (buňka 4) a před „Náš tím“ (buňka 8). Oprava: padding-top u hlaviček sekcí zmenšit na ~96 px (PC) a ~56 px (mobil), h2 zarovnat nahoru do jedné linky s perexem a odstranit bílý pruh nad recenzemi.",
+    "Fotky ve Špecialitách a v Týmu: fotka 24h monitoru je produktový výřez na bílém pozadí a vedle sytě ořezané fotky s injekcí GUNA působí jako cizí katalogový obrázek (PC buňka 6, mobil 7). Oprava: dát obě fotky do stejného rámu 4:3 se stejným teplým pozadím, nebo najít na sempersa.sk fotku přístroje na pacientovi. V Týmu má portrét MUDr. Medža tmavé pozadí a ostatní tři světlé. Oprava: sjednotit pozadí a gradaci (světlé teplé pozadí, stejný výřez hlavy).",
+    "Pravdivost: věty „SEMPER vždy + SANUS zdravý“ a „Klient nie je u nás diagnóza, ale partner. Udržiavame a rozvíjame jeho zdravie.“ (sekce Naše špeciality) v brief.json nejsou. Taky „od 13,00 €“ u GUNA injekcí: v ceníku je pevná cena 13,00 €, ne „od“. Oprava: doplnit zdroj do briefu (stránka O nás), jinak větu nahradit doloženou „Našim cieľom je dosiahnuť pocit plného zdravia pre každého klienta.“ a u ceny škrtnout „od“."
   ],
   "silne": [
-    "Brand sedí: oranžová #f7931f z loga, bordó #971b1e jako druhý akcent, logo Sempersa vlevo v hlavičce. Světlý, klidný, důvěryhodný medicínský tón bez tmavého luxusu.",
-    "Obsah je pravdivý a z briefu: ceny 65 €, 149 € a od 13 € z ceníku, ordinační hodiny přesně, poznámka o mateřské dovolené, „Nie sme zmluvný partner poisťovní“, reálné recenze s podpisem a reálné fotky od Brana Molnára.",
-    "Ordinační hodiny jako časová osa na PC a jako přehledný seznam na mobilu. Mobil je skutečně navržený: tým ve 2 sloupcích, plné CTA s telefonem, nic nepřetéká (QA čisté, 0,95 MB)."
+    "Koncept „hodina pre pacienta“ vychází přímo z faktů klienta (60 minut, čas na pacienta) a táhne se webem: štítek 60 minút v hero, ordinační hodiny jako časová osa s pruhy a ciferník 60 MINÚT se čtyřmi kroky návštěvy.",
+    "Brand drží: oranžové logo Sempersa vlevo, paleta z loga a z jejich webu (oranžová #f7931f, bordó #971b1e), skutečné fotky ambulance a skutečný tým se jmény a motty.",
+    "Obsah je doložený: ceny 149 € a 65 € z ceníku, recenze Maroše K. a Norberta M. z jejich webu, rok 2006, upozornění „nie sme zmluvný partner poisťovní“.",
+    "Konverze je jasná: v hlavičce i v hero je „Objednať sa“ s telefonem recepce, v sekci Ako sa k nám dostanete adresa a e-mail, v patičce fakturační údaje.",
+    "Mobil je čistý: nic nepřetéká, dotykové cíle jsou v pořádku a ordinační hodiny jsou rozumně převedené na seznam. Literata nad Albert Sans má dobrou hierarchii a správnou slovenskou diakritiku. Žádné AI vzory (marquee, číslování, grain)."
   ],
-  "verdikt": "Solidní, pravdivý a brandově správný redesign, který je o třídu lepší než původní web. Zatím ale působí jako uhlazená zdravotnická šablona s jedním chytrým prvkem (ciferník). Opravit tři body, pak odeslat."
+  "verdikt": "Silný, pravdivý redesign s konceptem z oboru a se zachovaným brandem. Hranice pro odeslání je splněná. Před posláním ještě zmenšit prázdné pruhy nad sekcemi, sjednotit fotky ve Špecialitách a v Týmu a doložit nebo nahradit motto a citát v Naše špeciality."
 }

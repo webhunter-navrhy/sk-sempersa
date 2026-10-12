@@ -1,10 +1,8 @@
 {
-  "url": "http://localhost:8791/sk-sempersa/",
+  "url": "https://webhunter-navrhy.github.io/sk-sempersa/",
   "ok": true,
   "chyby": [],
-  "varovani": [
-    "Web má noindex (u ostrého webu pravděpodobně chyba)"
-  ],
+  "varovani": [],
   "metriky": {
     "sirky": {
       "1440": {
@@ -32,18 +30,18 @@
         "pocet_pretekajicich": 0
       }
     },
-    "preneseno_PC_MB": 0.63,
+    "preneseno_PC_MB": 0.57,
     "nejvetsi_obrazek_PC": {
       "kB": 45,
-      "url": "http://localhost:8791/sk-sempersa/img/doprava-640.webp"
+      "url": "https://webhunter-navrhy.github.io/sk-sempersa/img/doprava-640.webp"
     },
     "snimku_PC": 9,
-    "preneseno_mobil_MB": 0.95,
+    "preneseno_mobil_MB": 0.89,
     "nejvetsi_obrazek_mobil": {
       "kB": 127,
-      "url": "http://localhost:8791/sk-sempersa/img/doprava-1280.webp"
+      "url": "https://webhunter-navrhy.github.io/sk-sempersa/img/doprava-1280.webp"
     },
-    "snimku_mobil": 12,
+    "snimku_mobil": 11,
     "seo": {
       "title": "Sempersa – súkromné medicínske centrum, Bratislava-Prievoz",
       "description": "Súkromné medicínske centrum Sempersa v Bratislave-Prievoze: interná ambulancia, rehabilitačná ambula",

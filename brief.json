@@ -220,6 +220,11 @@
    "typ": "fotky",
    "text": "všetky fotky z sempersa.sk/wp-content/uploads (profesionálne foto Brano Molnár, portréty tímu, street view okolia)",
    "zdroj": "https://sempersa.sk/"
+  },
+  {
+   "typ": "pristup",
+   "text": "„Prečo Sempersa? Názov … semper (vždy, stále) a sanus (zdravý). Klient nie je u nás diagnóza, ale partner. Udržiavame a rozvíjame jeho zdravie.“",
+   "zdroj": "https://sempersa.sk/nase-sluzby-sempersa/"
   }
  ],
  "chybi": [
