@@ -1,0 +1,43 @@
+{
+ "tim": [
+  {
+   "meno": "MUDr. Ivan Medžo",
+   "rola": "internista, konateľ",
+   "motto": "zdravie nadovšetko a pre každého",
+   "foto": "tim-medzo.jpg"
+  },
+  {
+   "meno": "MUDr. Helena Lesayová",
+   "rola": "rehabilitačná lekárka",
+   "motto": "trpezlivosť, vytrvalosť a dôslednosť",
+   "foto": "tim-lesayova.jpg"
+  },
+  {
+   "meno": "Bc. Monika Centárová",
+   "rola": "fyzioterapeutka",
+   "motto": "pohyb je zdravie, t. č. na materskej „dovolenke“",
+   "foto": "tim-centarova.jpg"
+  },
+  {
+   "meno": "Ing. Andrea Medžová",
+   "rola": "účtovníctvo, marketing, komunikácia, objednávky",
+   "motto": "je vo svojom živle…",
+   "foto": "tim-medzova.jpg"
+  }
+ ],
+ "spolupraca": [
+  {
+   "meno": "MUDr. Dagmar Šefčíková",
+   "rola": "rehabilitačná lekárka",
+   "motto": "spolupráca s centrom rehabilitácie v Pezinku",
+   "foto": "tim-sefcikova.jpg"
+  },
+  {
+   "meno": "Prof. MUDr. Jozef Vojtaššák, CSc.",
+   "rola": "chirurg, ortopéd",
+   "motto": "www.profvojtassak.sk",
+   "foto": "tim-vojtassak.jpg",
+   "odkaz": "https://www.profvojtassak.sk"
+  }
+ ]
+}

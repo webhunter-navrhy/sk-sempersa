@@ -1,0 +1,597 @@
+[
+ {
+  "id": "interna",
+  "nazev": "Interná ambulancia",
+  "skupiny": [
+   {
+    "nazev": "",
+    "pozn": "",
+    "polozky": [
+     {
+      "nazev": "Komplexné interné vyšetrenie vrátane EKG a ordinácie",
+      "min": 60,
+      "cena": "65,00 €"
+     },
+     {
+      "nazev": "Kontrolné vyšetrenie internistom",
+      "min": null,
+      "cena": "30,00 €"
+     },
+     {
+      "nazev": "Odborná konzultácia s internistom",
+      "min": 30,
+      "cena": "20,00 €"
+     },
+     {
+      "nazev": "Predoperačné interné vyšetrenie len zhodnotenie +EKG",
+      "min": null,
+      "cena": "50,00 €"
+     },
+     {
+      "nazev": "EKG vyšetrenie",
+      "min": null,
+      "cena": "5,00 €"
+     },
+     {
+      "nazev": "24 hod. monitor (permanentné meranie krvného tlaku, pulzu, EKG a oxygenácie pulzným oxymetrom)",
+      "min": null,
+      "cena": "149,00 €"
+     },
+     {
+      "nazev": "Infúzna liečba",
+      "min": null,
+      "cena": "od 12,00 €"
+     },
+     {
+      "nazev": "Lab. odbery pre interné vyšetrenie (základné)",
+      "min": null,
+      "cena": "55,00 €"
+     },
+     {
+      "nazev": "Lab. odbery pre interné vyšetrenie (stredné) aj predoperačné",
+      "min": null,
+      "cena": "85,00 €"
+     },
+     {
+      "nazev": "Lab. odbery pre interné vyšetrenie (veľké)",
+      "min": null,
+      "cena": "165,00 €"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rehab",
+  "nazev": "Rehabilitačná ambulancia",
+  "skupiny": [
+   {
+    "nazev": "",
+    "pozn": "",
+    "polozky": [
+     {
+      "nazev": "Komplexné rehabilitačné vyšetrenie – vstupné",
+      "min": 60,
+      "cena": "50,00 €"
+     },
+     {
+      "nazev": "Preventívna prehliadka pohybového aparátu (do 60 min.)",
+      "min": 60,
+      "cena": "35,00 €"
+     },
+     {
+      "nazev": "Vyšetrenie lekárom FBLR + fyzioterapia (ILTV + lavatherm)",
+      "min": 60,
+      "cena": "50,00 €"
+     },
+     {
+      "nazev": "Cielené rehabilitačné vyšetrenie – kontrolné, opakované",
+      "min": 30,
+      "cena": "20,00 €"
+     },
+     {
+      "nazev": "Odborná konzultácia s lekárom",
+      "min": 30,
+      "cena": "20,00 €"
+     },
+     {
+      "nazev": "Evaluácia funkčných porúch pohybového aparátu",
+      "min": null,
+      "cena": "17,00 €"
+     },
+     {
+      "nazev": "Manipulačný výkon v oblasti chrbtice",
+      "min": null,
+      "cena": "19,00 €"
+     },
+     {
+      "nazev": "Manipulačný výkon na periférnom kĺbe",
+      "min": null,
+      "cena": "19,00 €"
+     }
+    ]
+   },
+   {
+    "nazev": "Obstreky, injekcie, tejpovanie, náplaste",
+    "pozn": "",
+    "polozky": [
+     {
+      "nazev": "Neurálna terapia (obstreky) s liečivom GUNA MD injekcie",
+      "min": null,
+      "cena": "13,00 €"
+     },
+     {
+      "nazev": "Neurálna terapia (obstreky) bez liečiva",
+      "min": null,
+      "cena": "6,00 €"
+     },
+     {
+      "nazev": "Aplikácia intramuskulárnej injekcie",
+      "min": null,
+      "cena": "4,00 €"
+     },
+     {
+      "nazev": "Aplikácia intravenóznej injekcie",
+      "min": null,
+      "cena": "12,00 €"
+     },
+     {
+      "nazev": "Aplikácia tapingu (liečebný) – 1 sedenie",
+      "min": null,
+      "cena": "15,00 €"
+     },
+     {
+      "nazev": "Aplikácia tapingu (kineziologický)",
+      "min": null,
+      "cena": "15,00 €"
+     }
+    ]
+   },
+   {
+    "nazev": "Potvrdenia",
+    "pozn": "",
+    "polozky": [
+     {
+      "nazev": "Komplexný lekársky nález na žiadosť klienta (pre potreby: výkon športu, povolania, poistenie)",
+      "min": null,
+      "cena": "10,00 €"
+     },
+     {
+      "nazev": "Žiadanka (kúpeľný návrh)",
+      "min": null,
+      "cena": "15,00 €"
+     },
+     {
+      "nazev": "Poplatok za vymeškaný (neospravedlnený) termín terapie alebo vyšetrenia",
+      "min": null,
+      "cena": "5,00 €"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "fyzio",
+  "nazev": "Fyzioterapia",
+  "skupiny": [
+   {
+    "nazev": "",
+    "pozn": "",
+    "polozky": [
+     {
+      "nazev": "Vstupné vyšetrenie – kineziologický rozbor",
+      "min": 60,
+      "cena": "20,00 €"
+     },
+     {
+      "nazev": "Kontrolné alebo záverečné vyšetrenie fyzioterapeutom",
+      "min": 30,
+      "cena": "10,00 €"
+     },
+     {
+      "nazev": "Fyzioterapeutická konzultácia",
+      "min": 30,
+      "cena": "10,00 €"
+     }
+    ]
+   },
+   {
+    "nazev": "Individuálna liečebná telesná výchova (ILTV)",
+    "pozn": "",
+    "polozky": [
+     {
+      "nazev": "1x ILTV",
+      "min": 30,
+      "cena": "15,00 €"
+     },
+     {
+      "nazev": "3x ILTV",
+      "min": 30,
+      "cena": "39,00 €"
+     },
+     {
+      "nazev": "7x ILTV",
+      "min": 30,
+      "cena": "79,00 €"
+     },
+     {
+      "nazev": "10x ILTV",
+      "min": 30,
+      "cena": "99,00 €"
+     },
+     {
+      "nazev": "1x ILTV",
+      "min": 60,
+      "cena": "26,00 €"
+     },
+     {
+      "nazev": "3x ILTV",
+      "min": 60,
+      "cena": "69,00 €"
+     },
+     {
+      "nazev": "7x ILTV",
+      "min": 60,
+      "cena": "129,00 €"
+     },
+     {
+      "nazev": "10x ILTV",
+      "min": 60,
+      "cena": "180,00 €"
+     }
+    ]
+   },
+   {
+    "nazev": "Mäkké a mobilizačné techniky, PIR, AGR",
+    "pozn": "",
+    "polozky": [
+     {
+      "nazev": "1x MT – doplnok k inej terapii",
+      "min": 15,
+      "cena": "10,00 €"
+     },
+     {
+      "nazev": "1x MT",
+      "min": 30,
+      "cena": "19,00 €"
+     },
+     {
+      "nazev": "7x MT",
+      "min": 30,
+      "cena": "99,00 €"
+     },
+     {
+      "nazev": "1x MT",
+      "min": 60,
+      "cena": "34,00 €"
+     },
+     {
+      "nazev": "7x MT",
+      "min": 60,
+      "cena": "179,00 €"
+     },
+     {
+      "nazev": "Mobilizácia kĺbov",
+      "min": null,
+      "cena": "12,00 €"
+     }
+    ]
+   },
+   {
+    "nazev": "Cvičebné jednotky",
+    "pozn": "",
+    "polozky": [
+     {
+      "nazev": "SM systém – 1 x",
+      "min": 30,
+      "cena": "19,00 €"
+     },
+     {
+      "nazev": "SM systém – 5 x",
+      "min": 30,
+      "cena": "79,00 €"
+     },
+     {
+      "nazev": "SM systém – 10 x",
+      "min": 30,
+      "cena": "149,00 €"
+     },
+     {
+      "nazev": "Cvičenie s fitloptami a nestabilnými plošinami",
+      "min": 30,
+      "cena": "15,00 €"
+     },
+     {
+      "nazev": "Zostavenie cvičebnej jednotky na domáce cvičenie",
+      "min": null,
+      "cena": "15,00 €"
+     },
+     {
+      "nazev": "Vypracovanie tréningového programu",
+      "min": null,
+      "cena": "dohodou"
+     }
+    ]
+   },
+   {
+    "nazev": "SM systém – skupinové cvičenie",
+    "pozn": "najviac 2 cvičiaci klienti, z toho 2. klient iba za 20 % z ceny vybraného balíčka",
+    "polozky": [
+     {
+      "nazev": "2 klienti – 1x",
+      "min": 30,
+      "cena": "23,00 €"
+     },
+     {
+      "nazev": "2 klienti – 5x",
+      "min": 30,
+      "cena": "79,00 €"
+     },
+     {
+      "nazev": "2 klienti – 10x",
+      "min": 30,
+      "cena": "132,00 €"
+     }
+    ]
+   },
+   {
+    "nazev": "Fyzikálna terapia",
+    "pozn": "",
+    "polozky": [
+     {
+      "nazev": "Elektroliečba",
+      "min": 20,
+      "cena": "8,00 €"
+     },
+     {
+      "nazev": "Ultrazvuk",
+      "min": 10,
+      "cena": "5,00 €"
+     },
+     {
+      "nazev": "Magnetoterapia",
+      "min": 30,
+      "cena": "9,00 €"
+     },
+     {
+      "nazev": "Lavatherm",
+      "min": 15,
+      "cena": "4,00 €"
+     },
+     {
+      "nazev": "Rašelinový zábal",
+      "min": 20,
+      "cena": "6,00 €"
+     },
+     {
+      "nazev": "Kombinovaná fyzikálna liečba (ultrazvuk + elektroliečba)",
+      "min": 15,
+      "cena": "10,00 €"
+     },
+     {
+      "nazev": "Kombinovaná fyzikálna liečba (magnetoterapia + elektroliečba)",
+      "min": 30,
+      "cena": "12,00 €"
+     },
+     {
+      "nazev": "Balíček: 7x (elektroliečba, ultrazvuk alebo magnetoterapia)",
+      "min": null,
+      "cena": "49,00 €"
+     }
+    ]
+   },
+   {
+    "nazev": "Balíčky terapií (60 min.)",
+    "pozn": "Balíček 1: ILTV + fyzikálna terapia + mäkké techniky · Balíček 2: ILTV + elektroliečba + lavatherm · Balíček 3: ILTV + elektroliečba + magnetoterapia",
+    "polozky": [
+     {
+      "nazev": "1 x terapia",
+      "min": 60,
+      "cena": "38,00 €"
+     },
+     {
+      "nazev": "3 x terapia",
+      "min": 60,
+      "cena": "96,00 €"
+     },
+     {
+      "nazev": "5 x terapia",
+      "min": 60,
+      "cena": "155,00 €"
+     },
+     {
+      "nazev": "7 x terapia",
+      "min": 60,
+      "cena": "199,00 €"
+     }
+    ]
+   },
+   {
+    "nazev": "Kineziotejping",
+    "pozn": "",
+    "polozky": [
+     {
+      "nazev": "malá aplikačná plocha (do 50 b. cm)",
+      "min": null,
+      "cena": "4,00 €"
+     },
+     {
+      "nazev": "stredná aplikačná plocha (od 50 – 100 b. cm)",
+      "min": null,
+      "cena": "8,00 €"
+     },
+     {
+      "nazev": "veľká aplikačná plocha (nad 100 b. cm)",
+      "min": null,
+      "cena": "12,00 €"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "masaze",
+  "nazev": "Masáže",
+  "skupiny": [
+   {
+    "nazev": "",
+    "pozn": "",
+    "polozky": [
+     {
+      "nazev": "Liečebná masáž rehabilitačnými technikami na bolesti chrbta, šije a krížov",
+      "min": 30,
+      "cena": "23,00 €"
+     },
+     {
+      "nazev": "Liečebná masáž rehabilitačnými technikami na bolesti chrbta, šije a krížov",
+      "min": 60,
+      "cena": "40,00 €"
+     },
+     {
+      "nazev": "Klasická masáž – 1 x",
+      "min": 30,
+      "cena": "15,00 €"
+     },
+     {
+      "nazev": "Klasická masáž – 1 x",
+      "min": 45,
+      "cena": "20,00 €"
+     },
+     {
+      "nazev": "Klasická masáž – 1 x",
+      "min": 60,
+      "cena": "27,00 €"
+     },
+     {
+      "nazev": "Športová masáž 1 x",
+      "min": 30,
+      "cena": "17,00 €"
+     },
+     {
+      "nazev": "Športová masáž 1 x",
+      "min": 60,
+      "cena": "29,00 €"
+     },
+     {
+      "nazev": "Reflexná masáž chrbtová zostava",
+      "min": 30,
+      "cena": "18,00 €"
+     },
+     {
+      "nazev": "Reflexná masáž šija a hlava",
+      "min": 30,
+      "cena": "18,00 €"
+     },
+     {
+      "nazev": "Reflexná masáž chodidlá + kúpeľ nôh",
+      "min": 60,
+      "cena": "23,00 €"
+     },
+     {
+      "nazev": "7 x masáž",
+      "min": 30,
+      "cena": "99,00 €"
+     },
+     {
+      "nazev": "7 x masáž",
+      "min": 60,
+      "cena": "169,00 €"
+     }
+    ]
+   },
+   {
+    "nazev": "Manuálna lymfodrenážna masáž",
+    "pozn": "",
+    "polozky": [
+     {
+      "nazev": "1 x",
+      "min": 30,
+      "cena": "20,00 €"
+     },
+     {
+      "nazev": "5 x",
+      "min": 30,
+      "cena": "85,00 €"
+     },
+     {
+      "nazev": "1 x",
+      "min": 60,
+      "cena": "35,00 €"
+     },
+     {
+      "nazev": "5 x",
+      "min": 60,
+      "cena": "150,00 €"
+     },
+     {
+      "nazev": "10 x",
+      "min": 60,
+      "cena": "280,00 €"
+     },
+     {
+      "nazev": "1 x",
+      "min": 90,
+      "cena": "50,00 €"
+     },
+     {
+      "nazev": "5 x",
+      "min": 90,
+      "cena": "215,00 €"
+     },
+     {
+      "nazev": "Bankovanie – vákuová masáž",
+      "min": 30,
+      "cena": "15,00 €"
+     },
+     {
+      "nazev": "Bankovanie – vákuová masáž",
+      "min": 45,
+      "cena": "20,00 €"
+     },
+     {
+      "nazev": "Bankovanie – vákuová masáž",
+      "min": 60,
+      "cena": "25,00 €"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pomocky",
+  "nazev": "Pomôcky",
+  "skupiny": [
+   {
+    "nazev": "",
+    "pozn": "",
+    "polozky": [
+     {
+      "nazev": "Termonáplasť – kapsaicínová",
+      "min": null,
+      "cena": "3,00 €"
+     },
+     {
+      "nazev": "Kolagénová náplasť LENI",
+      "min": null,
+      "cena": "11,00 €"
+     },
+     {
+      "nazev": "Theraband (1m)",
+      "min": null,
+      "cena": "6,50 €"
+     },
+     {
+      "nazev": "SM-systém cvičiace laná",
+      "min": null,
+      "cena": "24,00 €"
+     },
+     {
+      "nazev": "Overball",
+      "min": null,
+      "cena": "4,00 €"
+     }
+    ]
+   }
+  ]
+ }
+]

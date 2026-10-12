@@ -1,0 +1,153 @@
+[
+ {
+  "id": "interna",
+  "nazev": "Interná ambulancia",
+  "lekar": "MUDr. Ivan Medžo",
+  "foto": "interna-tlak.jpg",
+  "alt": "MUDr. Ivan Medžo meria pacientke krvný tlak",
+  "text": "Rodinný lekár pozná okrem aktuálneho zdravotného stavu aj prekonané ochorenia, sociálny status a ďalšie okolnosti, čo výraznou mierou ovplyvňuje diagnostiku a odporúčanú liečbu.",
+  "hodiny": [
+   [
+    "Pondelok",
+    "8:00 – 10:00"
+   ],
+   [
+    "Utorok",
+    "8:00 – 10:00"
+   ],
+   [
+    "Streda",
+    "8:00 – 10:00"
+   ],
+   [
+    "Štvrtok",
+    "8:00 – 10:00"
+   ],
+   [
+    "Piatok",
+    "8:00 – 10:00"
+   ]
+  ],
+  "hodiny_kratko": "pondelok – piatok 8:00 – 10:00",
+  "pozn_hodiny": "",
+  "rozvrh": [
+   {
+    "den": "Pondelok",
+    "text": "8:00 – 10:00",
+    "blok": [
+     8.0,
+     10.0
+    ]
+   },
+   {
+    "den": "Utorok",
+    "text": "8:00 – 10:00",
+    "blok": [
+     8.0,
+     10.0
+    ]
+   },
+   {
+    "den": "Streda",
+    "text": "8:00 – 10:00",
+    "blok": [
+     8.0,
+     10.0
+    ]
+   },
+   {
+    "den": "Štvrtok",
+    "text": "8:00 – 10:00",
+    "blok": [
+     8.0,
+     10.0
+    ]
+   },
+   {
+    "den": "Piatok",
+    "text": "8:00 – 10:00",
+    "blok": [
+     8.0,
+     10.0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rehab",
+  "nazev": "Rehabilitačná ambulancia",
+  "lekar": "MUDr. Helena Lesayová",
+  "foto": "rehab-ramena.jpg",
+  "alt": "Rehabilitačná lekárka vyšetruje pacientke ramená",
+  "text": "Komplexne posúdime Váš pohybový aparát po statickej, dynamickej i funkčnej stránke. Obnovíme a zlepšíme pohybové funkcie, zmiernime a odstránime neočakávané i opakujúce sa bolesti.",
+  "hodiny": [
+   [
+    "Pondelok",
+    "neordinuje"
+   ],
+   [
+    "Utorok",
+    "9:00 – 14:00"
+   ],
+   [
+    "Streda",
+    "neordinuje"
+   ],
+   [
+    "Štvrtok",
+    "9:00 – 14:00"
+   ],
+   [
+    "Piatok",
+    "neordinuje"
+   ]
+  ],
+  "hodiny_kratko": "utorok a štvrtok 9:00 – 14:00, ostatné dni neordinuje",
+  "pozn_hodiny": "",
+  "rozvrh": [
+   {
+    "den": "Pondelok",
+    "text": "neordinuje",
+    "blok": null
+   },
+   {
+    "den": "Utorok",
+    "text": "9:00 – 14:00",
+    "blok": [
+     9.0,
+     14.0
+    ]
+   },
+   {
+    "den": "Streda",
+    "text": "neordinuje",
+    "blok": null
+   },
+   {
+    "den": "Štvrtok",
+    "text": "9:00 – 14:00",
+    "blok": [
+     9.0,
+     14.0
+    ]
+   },
+   {
+    "den": "Piatok",
+    "text": "neordinuje",
+    "blok": null
+   }
+  ]
+ },
+ {
+  "id": "fyzio",
+  "nazev": "Fyzioterapia",
+  "lekar": "Bc. Monika Centárová",
+  "foto": "cvicenie-lopta.jpg",
+  "alt": "Cvičenie s loptou na podložke pod vedením fyzioterapeuta",
+  "text": "Individuálny rehabilitačný program pod odborným vedením fyzioterapeuta: mäkké a mobilizačné techniky, liečebná telesná výchova so špeciálnymi metodikami.",
+  "hodiny": [],
+  "hodiny_kratko": "",
+  "pozn_hodiny": "T. č. na materskej dovolenke. Aktuálne termíny fyzioterapie Vám povedia na recepcii.",
+  "rozvrh": []
+ }
+]

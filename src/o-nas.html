@@ -1,0 +1,55 @@
+{% extends "_base.html" %}
+{% set titulek = 'My – Sempersa, súkromné medicínske centrum Bratislava' %}
+{% set popis = 'Kto sme a ako pracujeme: čas na pacienta, poctivá diagnostika a starostlivosť aj po odchode z centra. Sempersa, Bratislava-Prievoz.' %}
+{% set cesta = 'o-nas/' %}
+{% set aktivni = 'o-nas' %}
+{% block obsah %}
+<section class="podhlava">
+  <div class="wrap podhlava-mriezka">
+    <div>
+      <p class="nadtitul">My</p>
+      <h1>… navždy zdravý a&nbsp;spokojný pacient</h1>
+      <p class="perex">Našim cieľom je dosiahnutie pocitu zdravia pre každého klienta. K&nbsp;dispozícii sme Vám od roku 2006.</p>
+    </div>
+    {{ img('interna-tlak.jpg', 'MUDr. Ivan Medžo pri meraní krvného tlaku', sizes='(min-width: 64rem) 30rem, 100vw') }}
+  </div>
+</section>
+<div class="wrap">
+  <section class="text-blok">
+    <h2>Zdravie nie je len vyliečenie</h2>
+    <div class="obsah">
+      <p>Aj človek s&nbsp;viacerými chorobami sa môže cítiť zdravo a&nbsp;má na to plné právo. Vôbec to nemusí znamenať iba úplné vyliečenie. Veľakrát sa stane, že je medicína krátka na pacientove choroby alebo jeho vek.</p>
+      <p>Tomuto cieľu sme museli prispôsobiť aj prístup k&nbsp;pacientom a&nbsp;k&nbsp;ich ochoreniam.</p>
+    </div>
+  </section>
+  <section class="text-blok">
+    <h2>Čas a&nbsp;poctivá diagnostika</h2>
+    <div class="obsah">
+      <p>Zameriavame sa na poctivú lekársku diagnostiku, ktorú zosobňuje predovšetkým sám lekár. Na každého pacienta máme dostatok času, nezriedka aj viac ako hodinu. Lekár pacienta pozorne vypočuje, vyšetrí a&nbsp;určí ďalšie smerovanie diagnostiky alebo liečby.</p>
+      <p>Nezakladáme si na tom, že máme najviac a&nbsp;najlepších prístrojov. Tých je dostatok a&nbsp;dobre dostupných všade naokolo.</p>
+      <p>Zároveň ctíme pravidlo: ak nevieš, čo očakávať od ordinovaného vyšetrenia, tak ho ani neordinuj. Šetríme organizmus pacienta aj jeho peniaze.</p>
+    </div>
+  </section>
+  <section class="text-blok">
+    <h2>Aj po odchode z&nbsp;centra</h2>
+    <div class="obsah">
+      <p>Sústredíme sa na poctivú lekársku robotu, nespúšťame pacienta z&nbsp;dohľadu ani po opustení nášho centra a&nbsp;pravidelne s&nbsp;ním komunikujeme, prípadne sa priamo zúčastňujeme na pomocných odborných vyšetreniach.</p>
+      <p>Prinášame aj možnosť odberu vzoriek v&nbsp;domácom alebo pracovnom prostredí, a&nbsp;to nielen v&nbsp;ranných hodinách, ale keď treba, tak prakticky kedykoľvek.</p>
+    </div>
+  </section>
+</div>
+<section class="sekce kontakt-pas">
+  <div class="wrap kontakt-mriezka">
+    <div>
+      <h2>Využite naše výhody</h2>
+      <p>Vždy v&nbsp;pracovné dni a&nbsp;pre trvalých klientov aj cez víkendy.</p>
+      <div class="hero-akcie"><a class="tlacitko" href="{{ url('kontakt') }}">Kontakt a&nbsp;ordinačné hodiny</a></div>
+    </div>
+    <ul class="vyhody" role="list">
+      <li>{{ img('prostredie.jpg', 'Budova medicínskeho centra na Farebnej ulici', sizes='(min-width: 64rem) 16rem, 100vw') }}<h3>Príjemné prostredie</h3><p>Bratislavský starý Prievoz, medzi rodinnými domami.</p></li>
+      <li>{{ img('doprava.jpg', 'Ulica s trolejbusovým vedením neďaleko centra', sizes='(min-width: 64rem) 16rem, 100vw') }}<h3>Dopravná dostupnosť</h3><p>Dobré spojenie MHD, autom, pešo aj na bicykli.</p></li>
+      <li>{{ img('parkovanie.jpg', 'Vchod do centra a parkovacie miesto pred ním', sizes='(min-width: 64rem) 16rem, 100vw') }}<h3>Vyhradené parkovanie</h3><p>Parkovacie miesto pred vstupom, na objednaný termín.</p></li>
+    </ul>
+  </div>
+</section>
+{% endblock %}

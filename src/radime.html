@@ -1,0 +1,30 @@
+{% extends "_base.html" %}
+{% set titulek = 'Radíme – články o zdraví a pohybe | Sempersa' %}
+{% set popis = 'Články lekárov a fyzioterapeutov Sempersy: tenisový lakeť, škola chrbta, lymfodrenáž, magnetoterapia, skolióza a ďalšie.' %}
+{% set cesta = 'radime/' %}
+{% set aktivni = 'radime' %}
+{% block obsah %}
+<section class="podhlava">
+  <div class="wrap podhlava-mriezka">
+    <div>
+      <p class="nadtitul">Radíme</p>
+      <h1>Čo robiť, keď bolí chrbát, lakeť alebo ruka</h1>
+      <p class="perex">Krátke články o&nbsp;ťažkostiach, s&nbsp;ktorými k&nbsp;nám pacienti chodia najčastejšie, a&nbsp;o&nbsp;tom, ako ich liečime.</p>
+    </div>
+    {{ img('cvicenie-stvornozky.jpg', 'Cvičenie na podložke pre stabilizáciu chrbtice', sizes='(min-width: 64rem) 30rem, 100vw') }}
+  </div>
+</section>
+<section class="sekce" style="padding-top:clamp(2.5rem,5vw,4rem)">
+  <div class="wrap">
+    <ol class="clanky" role="list">
+      {% for c in data.clanky %}
+      <li class="clanok">
+        <time>{{ c.datum }}</time>
+        <div><h2><a href="{{ c.url }}" rel="noopener">{{ c.nazev }}</a></h2><p>{{ c.perex }}</p></div>
+        <a class="odkaz-sipka" href="{{ c.url }}" rel="noopener" aria-label="Čítať: {{ c.nazev }}">Čítať</a>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+{% endblock %}

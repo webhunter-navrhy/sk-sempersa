@@ -1,0 +1,67 @@
+{
+  "slug": "sk-sempersa",
+  "nazev": "Sempersa s.r.o.",
+  "znacka": "Sempersa",
+  "url": "https://webhunter-navrhy.github.io/sk-sempersa/",
+  "base": "/sk-sempersa/",
+  "lang": "sk",
+  "popis": "Súkromné medicínske centrum Sempersa v Bratislave-Prievoze: interná ambulancia, rehabilitačná ambulancia a fyzioterapia. Čas na každého pacienta.",
+  "navrh": true,
+  "domena": "sempersa.sk",
+  "og_image": "konzultacia.jpg",
+  "logo": "logo.svg",
+  "theme_color": "#FBF7F2",
+  "typ": "MedicalClinic",
+  "ico": "36362352",
+  "dic": "2022194493",
+  "kontakt": {
+    "email": "info@sempersa.sk",
+    "telefon": "+421 903 976 532",
+    "telefon_marketing": "+421 915 714 091",
+    "adresa": {
+      "ulice": "Farebná 36",
+      "psc": "821 05",
+      "mesto": "Bratislava",
+      "zeme": "SK"
+    },
+    "fakturacna": "Súľovská 38, 821 05 Bratislava",
+    "mapa": "https://goo.gl/maps/2FbFFBA2S6dt6RnX8",
+    "facebook": "https://www.facebook.com/Sempersa/"
+  },
+  "oteviraci_doba": [],
+  "sameas": [
+    "https://www.facebook.com/Sempersa/"
+  ],
+  "cenove_rozpeti": "€€",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Správa z webu sempersa.sk"
+  },
+  "nav": [
+    {
+      "text": "My",
+      "href": "o-nas"
+    },
+    {
+      "text": "Služby",
+      "href": "sluzby"
+    },
+    {
+      "text": "Cenník",
+      "href": "cennik"
+    },
+    {
+      "text": "Špeciality",
+      "href": "specialita"
+    },
+    {
+      "text": "Radíme",
+      "href": "radime"
+    },
+    {
+      "text": "Kontakt",
+      "href": "kontakt"
+    }
+  ]
+}

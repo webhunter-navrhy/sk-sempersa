@@ -1,0 +1,70 @@
+{% extends "_base.html" %}
+{% set titulek = 'Kontakt a ordinačné hodiny – Sempersa, Farebná 36, Bratislava' %}
+{% set popis = 'Sempersa s.r.o., Farebná 36, 821 05 Bratislava. Recepcia +421 903 976 532, info@sempersa.sk. Ordinačné hodiny internej a rehabilitačnej ambulancie.' %}
+{% set cesta = 'kontakt/' %}
+{% set aktivni = 'kontakt' %}
+{% block obsah %}
+<section class="podhlava">
+  <div class="wrap">
+    <p class="nadtitul">Kontakt</p>
+    <h1>Pomôžeme Vám s&nbsp;Vašimi ťažkosťami</h1>
+    <p class="perex">Termín si dohodnete na recepcii. Ak sa potrebujete len poradiť, napíšte nám.</p>
+  </div>
+</section>
+<section class="sekce" style="padding-top:clamp(2.5rem,5vw,4rem)">
+  <div class="wrap kontakt-bloky">
+    <div>
+      <h2>Telefón a&nbsp;e-mail</h2>
+      <p>Recepcia<br><a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a></p>
+      <p style="margin-top:.6rem">Marketing, prevádzka<br><a href="tel:{{ site.kontakt.telefon_marketing|replace(' ', '') }}">{{ site.kontakt.telefon_marketing }}</a></p>
+      <p style="margin-top:.6rem">E-mail<br><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>
+    </div>
+    <div>
+      <h2>Prevádzka</h2>
+      <p>{{ site.nazev }}<br>Farebná 36<br>821&nbsp;05 Bratislava</p>
+      <p style="margin-top:.6rem">interná ambulancia, fyzioterapia a&nbsp;rehabilitácia</p>
+      <p style="margin-top:.6rem"><a href="{{ site.kontakt.mapa }}" rel="noopener">Otvoriť v&nbsp;mapách</a></p>
+    </div>
+    <div>
+      <h2>Fakturačné údaje</h2>
+      <p>{{ site.nazev }}<br>Súľovská 38<br>821&nbsp;05 Bratislava</p>
+      <p style="margin-top:.6rem">IČO: 36&nbsp;362&nbsp;352<br>DIČ: 2022&nbsp;194&nbsp;493</p>
+    </div>
+  </div>
+</section>
+<section class="sekce kontakt-pas">
+  <div class="wrap">
+    <h2 style="margin-bottom:clamp(2rem,4vw,3rem)">Ordinačné hodiny</h2>
+    <div class="ordinacne">
+      {% for a in data.ambulancie %}
+      <div>
+        <h3>{{ a.nazev }}</h3>
+        <p class="amb-lekar">{{ a.lekar }}</p>
+        {% if a.pozn_hodiny %}<p class="amb-hodiny-pozn">{{ a.pozn_hodiny }}</p>{% else %}<table class="hodiny">
+          <caption class="sr-only">Ordinačné hodiny – {{ a.nazev }}</caption>
+          {% for d, h in a.hodiny %}<tr{% if h in ['neordinuje', 'nedostupné'] %} class="volno"{% endif %}><th scope="row">{{ d }}</th><td>{{ h }}</td></tr>{% endfor %}
+        </table>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="sekce">
+  <div class="wrap formular-blok">
+    <div>
+      <h2>Napíšte nám</h2>
+      <p class="formular-pozn" style="margin-top:1rem;max-width:36ch">Vaše osobné údaje budú použité iba pre účely vyriešenia Vášho dopytu.</p>
+    </div>
+    <form class="formular" method="post" data-endpoint="{{ site.formular.endpoint }}" data-demo="{{ 1 if site.formular.demo or not site.formular.endpoint else 0 }}">
+      <label>Meno a&nbsp;priezvisko <input name="meno" autocomplete="name" required></label>
+      <label>E-mail <input name="email" type="email" autocomplete="email" required></label>
+      <label>Telefón <input name="telefon" type="tel" autocomplete="tel"></label>
+      <label>S&nbsp;čím Vám môžeme pomôcť? <textarea name="sprava" rows="5" required></textarea></label>
+      <div class="past" aria-hidden="true"><label>Nevypĺňať <input name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+      <input type="hidden" name="_subject" value="{{ site.formular.predmet }}">
+      <button class="tlacitko" type="submit">Odoslať požiadavku</button>
+      <p class="formular-stav" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+{% endblock %}

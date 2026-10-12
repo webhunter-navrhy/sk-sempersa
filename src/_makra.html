@@ -1,0 +1,4 @@
+{% macro cifernik(m, trieda='') -%}
+{%- set m = m|int -%}
+<svg class="mini-cif {{ trieda }}" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" class="mc-draha"/><circle cx="12" cy="12" r="9" class="mc-cas" pathLength="60" stroke-dasharray="{{ [m, 60]|min }} 60"/>{% if m > 60 %}<circle cx="12" cy="12" r="5" class="mc-cas mc-vnut" pathLength="60" stroke-dasharray="{{ m - 60 }} 60"/>{% endif %}</svg>
+{%- endmacro %}

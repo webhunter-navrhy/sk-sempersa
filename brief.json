@@ -1,0 +1,233 @@
+{
+ "slug": "sk-sempersa",
+ "zdroj_url": "https://sempersa.sk",
+ "firma": "Sempersa s.r.o.",
+ "obor": [
+  "zdraví a péče",
+  "právo a poradenství"
+ ],
+ "ico": "36362352",
+ "ares": null,
+ "kontakty": {
+  "emaily": [
+   "info@sempersa.sk"
+  ],
+  "telefony": [
+   "+421 903 976 532 (recepcia)",
+   "+421 915 714 091 (marketing, prevádzka)"
+  ],
+  "adresa": "Farebná 36, 821 05 Bratislava (prevádzka); fakturačná Súľovská 38, 821 05 Bratislava",
+  "socialni_site": [
+   "https://www.facebook.com/Sempersa/"
+  ]
+ },
+ "logo": {
+  "soubor": "podklady/logo.jpg",
+  "zdroj": "https://sempersa.sk/wp-content/uploads/2017/02/sempersa-logo-krivky.jpg",
+  "rozmery": [
+   1000,
+   251
+  ]
+ },
+ "barvy": {
+  "css_promenne": {},
+  "z_css": [
+   "#971b1e",
+   "#27a8d7",
+   "#f7931d",
+   "#f78da7",
+   "#9b51e0",
+   "#7bdcb5"
+  ],
+  "z_loga": [
+   "#f7931f",
+   "#feca99"
+  ],
+  "theme_color": null,
+  "doporucene": [
+   "#f7931f",
+   "#feca99",
+   "#971b1e",
+   "#27a8d7"
+  ]
+ },
+ "fotky": [
+  {
+   "soubor": "podklady/foto/foto-01.jpg",
+   "url": "https://sempersa.sk/wp-content/uploads/2021/01/doktorka.jpg",
+   "sirka": 500,
+   "vyska": 500,
+   "alt": ""
+  }
+ ],
+ "fakta": [
+  {
+   "typ": "h1",
+   "text": "Pomáhame ľuďom byť zdravý",
+   "zdroj": "https://sempersa.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Referencie a hodnotenia",
+   "zdroj": "https://sempersa.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Náš tím",
+   "zdroj": "https://sempersa.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Bc. Monika Centárová",
+   "zdroj": "https://sempersa.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "MUDr. Ivan MEDŽO",
+   "zdroj": "https://sempersa.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Ing. Andrea MEDŽOVÁ",
+   "zdroj": "https://sempersa.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "MUDr. Helena LESAYOVÁ",
+   "zdroj": "https://sempersa.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "MUDr. Dagmar Šefčíková",
+   "zdroj": "https://sempersa.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Prof. MUDr. Jozef VOJTAŠŠÁK, CSc.",
+   "zdroj": "https://sempersa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Našim cieľom je dosiahnuť pocit plného zdravia pre každého klienta.",
+   "zdroj": "https://sempersa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "SEMPERSA je súkromné medicínske centrum. Tím lekárov špecialistov a fyzioterapeutov je pripravený vám kedykoľvek pomôcť. Centrum poskytujúce zdravotnú starostlivosť v odboroch interná medicína, rehabilitačná medicína a fyzioterapia. Pravidelne spolupracujeme s odbornými ambulanciami reumatológie, neurológie, ortopédie, chirurgie a cievnej chirurgie. Nie sme zmluvný partner zdravotných poisťovní.",
+   "zdroj": "https://sempersa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Samozrejme radi spolupracujeme aj s ďalšími kolegami",
+   "zdroj": "https://sempersa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Ak máte ťažkosti alebo sa potrebujete poradiť, alebo len porozprávať o Vašom zdraví neváhajte nás kontaktovať, sme Vám k dispozícii už od roku 2006. Vždy v pracovné dni a pre trvalých klientov aj cez víkendy.",
+   "zdroj": "https://sempersa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Sme pripravení zmierniť a odstrániť ťažkosti pohybového aparátu, naučiť vás správne pohybové stereotypy, pripraviť vás na operačný výkon, vyliečiť zápal, odstrániť bolesť aplikovať liečbu, zlepšiť kondíciu, pomôcť pri rekonvalescencii, ale aj relaxovať.",
+   "zdroj": "https://sempersa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Rozhodnite sa pre profesionálnu zdravotnú starostlivosť.",
+   "zdroj": "https://sempersa.sk/"
+  },
+  {
+   "typ": "kontakt",
+   "text": "Recepcia +421 903 976 532, Marketing/prevádzka +421 915 714 091, info@sempersa.sk",
+   "zdroj": "https://sempersa.sk/kontakt-sempersa/"
+  },
+  {
+   "typ": "kontakt",
+   "text": "Prevádzka Farebná 36, Bratislava 821 05 (interná ambulancia, fyzioterapia a rehabilitácia)",
+   "zdroj": "https://sempersa.sk/kontakt-sempersa/"
+  },
+  {
+   "typ": "kontakt",
+   "text": "Fakturačné: Sempersa s.r.o, Súľovská 38, Bratislava 821 05, IČO 36 362 352, DIČ 2022 194 493",
+   "zdroj": "https://sempersa.sk/kontakt-sempersa/"
+  },
+  {
+   "typ": "hodiny",
+   "text": "Interná ambulancia MUDr. Ivan Medžo Po–Pi 8:00–10:00",
+   "zdroj": "https://sempersa.sk/kontakt-sempersa/"
+  },
+  {
+   "typ": "hodiny",
+   "text": "Rehabilitačná ambulancia MUDr. Helena Lesayová Ut a Št 9:00–14:00, Po/St/Pi neordinuje",
+   "zdroj": "https://sempersa.sk/kontakt-sempersa/"
+  },
+  {
+   "typ": "hodiny",
+   "text": "Fyzioterapia Bc. Monika Centárová Po–Pi nedostupné; tím: „t.č. na materskej dovolenke“",
+   "zdroj": "https://sempersa.sk/kontakt-sempersa/ + https://sempersa.sk/"
+  },
+  {
+   "typ": "cennik",
+   "text": "Komplexné interné vyšetrenie vrátane EKG a ordinácie (60 min.) 65,00 €",
+   "zdroj": "https://sempersa.sk/nase-sluzby-sempersa/cennik/"
+  },
+  {
+   "typ": "cennik",
+   "text": "24 hod. monitor (krvný tlak, pulz, EKG, oxygenácia) 149 €",
+   "zdroj": "https://sempersa.sk/nase-sluzby-sempersa/cennik/"
+  },
+  {
+   "typ": "cennik",
+   "text": "Neurálna terapia (obstreky) s liečivom GUNA MD injekcie 13,00 €",
+   "zdroj": "https://sempersa.sk/nase-sluzby-sempersa/cennik/"
+  },
+  {
+   "typ": "cennik",
+   "text": "celý cenník (interná, rehabilitačná, fyzioterapia, masáže, pomôcky) prevzatý 1:1 do _data/cennik.json, vynechaný len Covid 19 Ag test",
+   "zdroj": "https://sempersa.sk/nase-sluzby-sempersa/cennik/"
+  },
+  {
+   "typ": "cennik",
+   "text": "platby: hotovosť, POS karta/bezkontaktne, poukážky EDENRED, Vaša stravovacia, DOXX, LE CHEQUE DEJEUNER, vlastné darčekové poukážky",
+   "zdroj": "https://sempersa.sk/nase-sluzby-sempersa/cennik/"
+  },
+  {
+   "typ": "referencia",
+   "text": "Maroš K., železničiar: „Pred operáciou chrbtice som trpel veľkými bolesťami…“",
+   "zdroj": "https://sempersa.sk/"
+  },
+  {
+   "typ": "referencia",
+   "text": "Norbert M.: „Som maximálne spokojný s prístupom…“ (skrátené, vynechaná veta označená …)",
+   "zdroj": "https://sempersa.sk/"
+  },
+  {
+   "typ": "tim",
+   "text": "motta a role členov tímu (Medžo „zdravie nadovšetko a pre každého“, Lesayová „trpezlivosť, vytrvalosť a dôslednosť“, Centárová „pohyb je zdravie“, Medžová „Je vo svojom živle…“)",
+   "zdroj": "https://sempersa.sk/"
+  },
+  {
+   "typ": "o nas",
+   "text": "„Na každého pacienta máme dostatok času, nezriedka aj viac ako hodinu.“, „od roku 2006“, výhody prostredie/doprava/parkovanie",
+   "zdroj": "https://sempersa.sk/o-nas-sempersa/ + https://sempersa.sk/"
+  },
+  {
+   "typ": "specialita",
+   "text": "24h monitor: meranie bez manžety (PTT), beat-to-beat, pohyb a pozícia, O2, 24h EKG; GUNA kolagénové injekcie 2 ml, miesta aplikácie",
+   "zdroj": "https://sempersa.sk/sempersaspecialitygunainjekcie/"
+  },
+  {
+   "typ": "fotky",
+   "text": "všetky fotky z sempersa.sk/wp-content/uploads (profesionálne foto Brano Molnár, portréty tímu, street view okolia)",
+   "zdroj": "https://sempersa.sk/"
+  }
+ ],
+ "chybi": [
+  "aktuálne ordinačné hodiny fyzioterapie (na webe „nedostupné“, fyzioterapeutka na materskej)",
+  "aktuálnosť cenníka (posledná úprava na webe neznáma; Covid test vynechaný)",
+  "väčšie portréty MUDr. Lesayovej a prof. Vojtaššáka",
+  "ktoré články z Radíme preniesť (zatiaľ odkazy na pôvodný web)",
+  "fotka budovy/vchodu (zatiaľ street view z ich webu)"
+ ],
+ "popis_webu": ""
+}

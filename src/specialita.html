@@ -1,0 +1,46 @@
+{% extends "_base.html" %}
+{% set titulek = 'Špeciality – 24h monitor tlaku a EKG, kolagénové injekcie GUNA | Sempersa' %}
+{% set popis = '24-hodinový neinvazívny monitoring krvného tlaku, pulzu, EKG a okysličenia a liečba kolagénovými injekciami GUNA MD v Bratislave.' %}
+{% set cesta = 'specialita/' %}
+{% set aktivni = 'specialita' %}
+{% block obsah %}
+<section class="podhlava">
+  <div class="wrap">
+    <p class="nadtitul">Naše špeciality</p>
+    <h1>24-hodinový monitoring a&nbsp;kolagénové injekcie</h1>
+  </div>
+</section>
+<div class="wrap">
+  <section class="text-blok" id="monitor">
+    <h2>Tlakový a&nbsp;EKG Holter monitor</h2>
+    <div class="obsah">
+      <div class="spec-foto spec-foto-produkt">{{ img('monitor.jpg', 'Holter monitor na zápästí s prstovým snímačom', sizes='(min-width: 64rem) 40rem, 100vw') }}</div>
+      <p><strong>All in One: efektívne, komfortné, inovatívne.</strong> 24-hodinový neinvazívny monitoring krvného tlaku, pulzu, EKG a&nbsp;oxygenácie v&nbsp;pohodlí Vášho domova.</p>
+      <ul class="monitor-body" role="list">
+        <li>kontinuálne neinvazívne meranie tlaku krvi bez manžety</li>
+        <li>systolický a&nbsp;diastolický tlak krvi (mmHg), beat-to-beat</li>
+        <li>meranie bez nafukovania manžety (PTT metóda, klinicky validovaná), s&nbsp;maximálnym komfortom</li>
+        <li>pohyb a&nbsp;pozícia tela na rozlíšenie spánku a&nbsp;bdenia</li>
+        <li>hladina O<sub>2</sub> v&nbsp;krvi</li>
+        <li>kontinuálny 24-hodinový záznam EKG</li>
+      </ul>
+      <p class="spec-cena" style="font-family:var(--font-head);font-size:1.4rem;color:var(--text)">149,00 €</p>
+      <a class="tlacitko" href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">Chcem 24h EKG a&nbsp;TK monitor</a>
+    </div>
+  </section>
+  <section class="text-blok" id="guna">
+    <h2>Liečba kolagénovými injekciami GUNA</h2>
+    <div class="obsah">
+      {{ img('injekcia.jpg', 'Aplikácia injekcie do kolena', sizes='(min-width: 64rem) 40rem, 100vw') }}
+      <p>Moderná injekčná liečba bolestivých stavov pohybového aparátu s&nbsp;využitím prírodného kolagénu je jednoduchá a&nbsp;nemá nežiaduce účinky. Pacientovi sa aplikuje do spúšťacích bodov bolesti, na zlepšenie štruktúry poškodených kolagénových vlákien v&nbsp;dôsledku zápalových či degeneratívnych ochorení pohybového aparátu.</p>
+      <p>Okrem kolagénu obsahujú injekcie GUNA MD aj vybrané rastlinné a&nbsp;minerálne zložky s&nbsp;podporným hojivým, protizápalovým, antioxidačným a&nbsp;regeneračným účinkom. Cieľom je posilniť, štruktúrovať a&nbsp;chrániť chrupavky, šľachy, väzy a&nbsp;kĺbové puzdrá. Výsledkom je lepšia hybnosť kĺbov, uvoľnenie svalstva v&nbsp;danej oblasti aj odstránenie bolesti.</p>
+      <p>Ide o&nbsp;neinvazívnu liečbu, ktorá sa podáva injekčne (2&nbsp;ml) v&nbsp;niekoľkých dávkach. Dá sa kombinovať s&nbsp;inou liečbou, napríklad s&nbsp;protibolestivou a&nbsp;protizápalovou liečbou, infúznou liečbou, fyzikálnou terapiou, svetloliečbou, termoliečbou alebo liečbou pohybom.</p>
+      <h3 style="margin-top:.75rem">Kam injekcie aplikujeme</h3>
+      <ul class="miesta" role="list"><li>krčná chrbtica</li><li>hrudná chrbtica</li><li>krížová chrbtica</li><li>kostrč</li><li>ramenné kĺby</li><li>lakte</li><li>úpony</li><li>drobné kĺby</li><li>bedrové kĺby</li><li>kolená a&nbsp;nohy</li></ul>
+      <p>Naše skúsenosti s&nbsp;aplikáciou vychádzajú z&nbsp;hodnotenia dojmov pacienta a&nbsp;z&nbsp;objektivizácie naším vyšetrením.</p>
+      <p class="spec-cena" style="font-family:var(--font-head);font-size:1.4rem;color:var(--text)">Neurálna terapia s&nbsp;liečivom GUNA MD: 13,00 €</p>
+      <a class="tlacitko" href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">Objednať sa na liečbu</a>
+    </div>
+  </section>
+</div>
+{% endblock %}

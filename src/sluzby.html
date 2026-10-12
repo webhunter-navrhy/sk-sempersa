@@ -1,0 +1,60 @@
+{% extends "_base.html" %}
+{% set titulek = 'Služby – interná ambulancia, rehabilitácia, fyzioterapia | Sempersa' %}
+{% set popis = 'Rodinný lekár – internista, rehabilitačná lekárka a fyzioterapia v jednom centre v Bratislave-Prievoze.' %}
+{% set cesta = 'sluzby/' %}
+{% set aktivni = 'sluzby' %}
+{% block obsah %}
+<section class="podhlava">
+  <div class="wrap">
+    <p class="nadtitul">Naše služby</p>
+    <h1>Rodinný lekár, rehabilitačná lekárka a&nbsp;fyzioterapeut</h1>
+    <p class="perex">Centrum tvorí ambulancia interného lekára, rehabilitačná ambulancia a&nbsp;pracovisko fyzioterapie. Diagnózu, liečebný plán aj sledovanie počas rekonvalescencie máte na jednom mieste.</p>
+  </div>
+</section>
+<div class="wrap">
+  <section class="text-blok" id="interna">
+    <h2>Rodinný lekár – internista</h2>
+    <div class="obsah">
+      {{ img('interna-tlak.jpg', 'Internista meria pacientke krvný tlak', sizes='(min-width: 64rem) 40rem, 100vw') }}
+      <p>Rodinný lekár podľa nás má dobrú možnosť postupne odbúrať bariéry medzi lekárom a&nbsp;pacientom, čo zvyšuje aj pravidelnosť a&nbsp;ochotu jeho návštev. Tento princíp tak výrazne mení vzťah lekára a&nbsp;pacienta k&nbsp;lepšiemu.</p>
+      <p>Rodinný lekár prináša pre človeka a&nbsp;jeho rodinu viacero výhod. Okrem aktuálneho zdravotného stavu pacienta pozná aj jeho prekonané ochorenia, sociálny status a&nbsp;ďalšie okolnosti, čo výraznou mierou ovplyvňuje diagnostiku a&nbsp;odporúčanú liečbu.</p>
+      <a class="odkaz-sipka" href="{{ url('cennik') }}#interna">Cenník internej ambulancie</a>
+    </div>
+  </section>
+  <section class="text-blok" id="rehab">
+    <h2>Rehabilitačná lekárka</h2>
+    <div class="obsah">
+      {{ img('rehab-noha.jpg', 'Rehabilitačná lekárka vyšetruje pacientke koleno', sizes='(min-width: 64rem) 40rem, 100vw') }}
+      <p>Ponúkame najnovšie, ale i&nbsp;praxou overené rehabilitačné techniky, cvičenia a&nbsp;metódy na obnovu fyziologických funkcií Vášho tela, aby sa obnovila a&nbsp;zlepšila fyzická a&nbsp;psychická kondícia Vášho organizmu. Predchádzame ochabnutiu svalstva, bolestiam chrbta i&nbsp;chrbtice.</p>
+      <p>Obnovíme a&nbsp;zlepšíme pohybové funkcie. Zmiernime a&nbsp;odstránime neočakávané i&nbsp;opakujúce sa bolesti. Komplexne posúdime Váš pohybový aparát po statickej, dynamickej i&nbsp;funkčnej stránke.</p>
+      <a class="odkaz-sipka" href="{{ url('cennik') }}#rehab">Cenník rehabilitačnej ambulancie</a>
+    </div>
+  </section>
+  <section class="text-blok" id="fyzio">
+    <h2>Fyzioterapia</h2>
+    <div class="obsah">
+      {{ img('cvicenie-mostik.jpg', 'Cvičenie na podložke s fitloptami v pozadí', sizes='(min-width: 64rem) 40rem, 100vw') }}
+      <p>Individuálna fyzioterapia využíva komplexný pohľad na zdravotný stav pacienta. Zameriava sa na zostavenie individuálneho rehabilitačného programu pod odborným vedením fyzioterapeuta.</p>
+      <p>Fyzioterapeut aplikuje mäkké a&nbsp;mobilizačné techniky a&nbsp;komplexnú liečebnú telesnú výchovu s&nbsp;využitím jednotlivých špeciálnych metodík. Rehabilitačnými technikami a&nbsp;fyzikálnou terapiou obnovíme pohyblivosť a&nbsp;odstránime bolesť.</p>
+      <ul class="miesta" role="list"><li>liečebná telesná výchova</li><li>mäkké a&nbsp;mobilizačné techniky</li><li>SM systém</li><li>elektroliečba</li><li>ultrazvuk</li><li>magnetoterapia</li><li>lymfodrenáž</li><li>kineziotejping</li><li>masáže</li></ul>
+      <a class="odkaz-sipka" href="{{ url('cennik') }}#fyzio">Cenník fyzioterapie</a>
+    </div>
+  </section>
+</div>
+<section class="nazov">
+  <div class="wrap">
+    <p class="nazov-slova">Náš prístup</p>
+    <blockquote><p>Každému pacientovi venujeme dostatok času a&nbsp;dôsledne zvažujeme všetky terapeutické možnosti.</p></blockquote>
+  </div>
+</section>
+<div class="wrap">
+  <section class="text-blok">
+    <h2>Prečo Sempersa?</h2>
+    <div class="obsah">
+      <p>Názov medicínskeho centra vznikol kombináciou latinských pojmov <em lang="la">semper</em> (vždy, stále) a&nbsp;<em lang="la">sanus</em> (zdravý).</p>
+      <p>Klient nie je u&nbsp;nás diagnóza, ale partner. Udržiavame a&nbsp;rozvíjame jeho zdravie. Usilujeme sa, aby naši klienti mali stále „pocit duševnej a&nbsp;fyzickej pohody“ (definícia zdravia podľa WHO).</p>
+      <p>Postará sa o&nbsp;Vás vysokoškolsky vzdelaný zdravotnícky personál. Samozrejmosťou je individuálny prístup, súhra ľudského prístupu a&nbsp;techniky a&nbsp;starostlivosť dostupná bez dlhých čakacích dôb.</p>
+    </div>
+  </section>
+</div>
+{% endblock %}

@@ -1,0 +1,62 @@
+{% extends "_base.html" %}
+{% from "_makra.html" import cifernik %}
+{% set titulek = 'Cenník – Sempersa, medicínske centrum Bratislava' %}
+{% set popis = 'Cenník internej ambulancie, rehabilitačnej ambulancie, fyzioterapie a masáží v medicínskom centre Sempersa v Bratislave-Prievoze.' %}
+{% set cesta = 'cennik/' %}
+{% set aktivni = 'cennik' %}
+{% block obsah %}
+<section class="podhlava">
+  <div class="wrap">
+    <p class="nadtitul">Cenník</p>
+    <h1>Viete vopred, koľko čo stojí aj koľko to trvá</h1>
+    <p class="perex">Nie sme zmluvný partner zdravotných poisťovní. Výkony sa platia podľa schváleného cenníka priamo na prevádzke. Platný cenník je k&nbsp;dispozícii aj na recepcii.</p>
+    <p class="cennik-legenda"><span>{{ cifernik(30) }} 30 min.</span><span>{{ cifernik(60) }} 60 min.</span><span>{{ cifernik(90) }} 90 min.</span><span>Pri položkách bez ciferníka trvanie v&nbsp;cenníku nie je uvedené.</span></p>
+  </div>
+</section>
+<nav class="cennik-nav" aria-label="Kategórie cenníka">
+  <div class="wrap cennik-nav-in">
+    {% for k in data.cennik %}<a href="#{{ k.id }}">{{ k.nazev }}</a>{% endfor %}
+    <label class="cennik-hladat"><span class="sr-only">Hľadať v cenníku</span><input id="hladat" type="search" placeholder="Hľadať, napr. masáž" autocomplete="off"></label>
+  </div>
+</nav>
+<div class="wrap">
+  {% for k in data.cennik %}
+  <section class="cennik-kat" id="{{ k.id }}" aria-labelledby="h-{{ k.id }}">
+    <h2 id="h-{{ k.id }}">{{ k.nazev }}</h2>
+    <div>
+      {% for g in k.skupiny %}
+      <div class="cennik-skupina">
+        {% if g.nazev %}<h3>{{ g.nazev }}</h3>{% endif %}
+        {% if g.pozn %}<p class="pozn">{{ g.pozn }}</p>{% endif %}
+        <ul class="polozky" role="list">
+          {% for p in g.polozky %}
+          <li class="polozka">
+            <span class="polozka-cas">{% if p.min %}{{ cifernik(p.min) }}{{ p.min }} min.{% endif %}</span>
+            <span class="polozka-nazov">{{ p.nazev }}</span>
+            <span class="polozka-cena">{{ p.cena }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+  <p class="cennik-prazdne" hidden>Nič sme nenašli. Skúste iné slovo alebo nám zavolajte na recepciu.</p>
+</div>
+<section class="sekce">
+  <div class="wrap platby">
+    <div>{{ img('platba.jpg', 'Platba kartou cez POS terminál', sizes='(min-width: 64rem) 30rem, 100vw') }}</div>
+    <div>
+      <h2>Ako môžete platiť</h2>
+      <ul class="zoznam-bodky" style="margin-top:1.25rem">
+        <li>v&nbsp;hotovosti</li>
+        <li>platobnou kartou alebo bezdotykovo cez POS terminál</li>
+        <li>darčekovými a&nbsp;relaxačnými poukážkami EDENRED, Vaša stravovacia, DOXX, LE CHEQUE DEJEUNER</li>
+        <li>darčekovými poukážkami nášho medicínskeho centra</li>
+      </ul>
+      <div class="hero-akcie"><a class="tlacitko" href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">Objednať termín · {{ site.kontakt.telefon }}</a></div>
+    </div>
+  </div>
+</section>
+{% endblock %}

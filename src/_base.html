@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ titulek or site.nazev }}</title>
+<meta name="description" content="{{ popis or site.popis }}">
+{% if site.navrh or noindex %}<meta name="robots" content="noindex, nofollow">{% endif %}
+<meta name="theme-color" content="{{ site.theme_color }}">
+<link rel="canonical" href="{{ site.url }}{{ cesta or '' }}">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sk_SK">
+<meta property="og:title" content="{{ titulek or site.nazev }}">
+<meta property="og:description" content="{{ popis or site.popis }}">
+<meta property="og:url" content="{{ site.url }}{{ cesta or '' }}">
+{% if og_url %}<meta property="og:image" content="{{ og_url }}">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">{% endif %}
+<link rel="icon" href="{{ base }}favicon.svg" type="image/svg+xml">
+<link rel="preload" href="{{ base }}fonts/Literata-normal-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ asset('css/fonts.css') }}">
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+{% block head %}{% endblock %}
+{% if jsonld %}<script type="application/ld+json">{{ jsonld|safe }}</script>{% endif %}
+</head>
+<body>
+<a class="skip" href="#obsah">Preskočiť na obsah</a>
+<header class="hlavicka">
+  <div class="hlavicka-in">
+    <a href="{{ url('') }}" class="logo" aria-label="Sempersa – úvod"><img src="{{ base }}{{ site.logo }}" alt="Sempersa" width="170" height="40"></a>
+    <nav class="menu" id="menu" aria-label="Hlavné menu">
+      {% for n in site.nav %}<a href="{{ url(n.href) }}"{% if aktivni|default("") == n.href %} aria-current="page"{% endif %}>{{ n.text }}</a>{% endfor %}
+    </nav>
+    <a class="tlacitko tlacitko-male hlavicka-cta" href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">Objednať sa</a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="menu"><span class="sr-only">Menu</span><span class="burger-car" aria-hidden="true"></span></button>
+  </div>
+</header>
+<main id="obsah">
+{% block obsah %}{% endblock %}
+</main>
+<footer class="paticka">
+  <div class="wrap paticka-mriezka">
+    <div class="paticka-znacka">
+      <img src="{{ base }}logo-white.svg" alt="Sempersa" width="200" height="47" loading="lazy">
+      <p>Súkromné medicínske centrum v&nbsp;bratislavskom Prievoze. Interná medicína, rehabilitácia a&nbsp;fyzioterapia.</p>
+    </div>
+    <div>
+      <h2 class="paticka-nadpis">Prevádzka</h2>
+      <p>{{ site.kontakt.adresa.ulice }}<br>{{ site.kontakt.adresa.psc }} {{ site.kontakt.adresa.mesto }}</p>
+      <p><a href="{{ site.kontakt.mapa }}" rel="noopener">Ako sa k&nbsp;nám dostanete</a></p>
+    </div>
+    <div>
+      <h2 class="paticka-nadpis">Kontakt</h2>
+      <p>Recepcia <a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a><br>
+      Marketing, prevádzka <a href="tel:{{ site.kontakt.telefon_marketing|replace(' ', '') }}">{{ site.kontakt.telefon_marketing }}</a><br>
+      <a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a><br>
+      <a href="{{ site.kontakt.facebook }}" rel="noopener">Facebook</a></p>
+    </div>
+    <div>
+      <h2 class="paticka-nadpis">Fakturačné údaje</h2>
+      <p>{{ site.nazev }}<br>{{ site.kontakt.fakturacna }}<br>IČO 36&nbsp;362&nbsp;352 · DIČ 2022&nbsp;194&nbsp;493</p>
+    </div>
+  </div>
+  <div class="wrap paticka-spodok">
+    <p>© {{ site.nazev }}</p>
+    <nav aria-label="Pätička">{% for n in site.nav %}<a href="{{ url(n.href) }}">{{ n.text }}</a>{% endfor %}</nav>
+  </div>
+</footer>
+<script src="{{ asset('js/main.js') }}" defer></script>
+</body>
+</html>
